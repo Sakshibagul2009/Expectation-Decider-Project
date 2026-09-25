@@ -4,13 +4,11 @@
 
 Expectation Decider is a Python-based probability and statistical analysis project using a student performance dataset.
 
-The project analyzes student performance using probability concepts, statistical measures, probability distributions, contingency tables, conditional probability, Venn diagrams, and Bayes' Theorem.
+The project applies probability concepts to understand student performance and relationships between different events.
 
 ## Dataset
 
-The dataset contains information about 120 students.
-
-### Variables
+The dataset contains student performance information with the following variables:
 
 - Student_ID
 - study_hours
@@ -19,20 +17,62 @@ The dataset contains information about 120 students.
 - previous_test_score
 - final_exam_pass
 
-The dataset contains approximately 85% students who passed the final exam.
+The dataset contains 120 student records.
 
 ## Objectives
 
-- Understand the basics of probability.
-- Calculate empirical and theoretical probability.
-- Create a random variable and probability distribution.
-- Calculate mean, median, and mode.
-- Visualize data using a bell-shaped curve.
-- Create a Venn diagram.
-- Create a contingency table.
-- Calculate joint, marginal, and conditional probabilities.
-- Understand relationships between events.
-- Apply Bayes' Theorem to student performance data.
+The main objectives of this project are:
+
+1. Understand the basics of probability.
+2. Calculate empirical and theoretical probability.
+3. Create a random variable and probability distribution.
+4. Calculate mean and variance.
+5. Create a Venn diagram.
+6. Create a contingency table.
+7. Calculate joint probability.
+8. Calculate marginal probability.
+9. Calculate conditional probability.
+10. Understand relationships between events.
+11. Apply Bayes' Theorem.
+
+## Analysis Performed
+
+### 1. Probability Basics
+Basic probability concepts and events are explained using the student dataset.
+
+### 2. Empirical and Theoretical Probability
+Empirical probability is calculated from the observed student data, while theoretical probability is calculated using the Binomial Distribution.
+
+### 3. Random Variable & Probability Distribution
+A random variable is defined as the number of students passing out of 3 randomly selected students.
+
+### 4. Mean and Variance
+The mean and variance of the Binomial Distribution are calculated.
+
+### 5. Venn Diagram
+A Venn diagram is created to analyze:
+- Students studying more than 10 hours
+- Students with attendance above 80%
+- Students satisfying both conditions
+
+### 6. Contingency Table
+A contingency table is created to analyze the relationship between:
+
+- Group Discussion: Yes / No
+- Final Exam: Pass / Fail
+
+### 7. Probability Calculations
+The project calculates:
+
+- Joint Probability
+- Marginal Probability
+- Conditional Probability
+
+### 8. Understanding Relationships
+The project checks whether group discussion participation and passing the final exam are independent, dependent, or mutually exclusive events.
+
+### 9. Bayes' Theorem
+Bayes' Theorem is applied to calculate the probability of passing the final exam given a particular condition.
 
 ## Tools & Technologies
 
@@ -41,34 +81,17 @@ The dataset contains approximately 85% students who passed the final exam.
 - Pandas
 - NumPy
 - Matplotlib
+- Matplotlib-Venn
 - Scikit-learn
-
-## Key Analysis
-
-The project includes:
-
-1. Basic Probability
-2. Empirical and Theoretical Probability
-3. Random Variable and Probability Distribution
-4. Mean, Median and Mode
-5. Bell-Shaped Curve
-6. Venn Diagram
-7. Contingency Table
-8. Joint Probability
-9. Marginal Probability
-10. Conditional Probability
-11. Event Independence
-12. Bayes' Theorem
-13. Student Performance Analysis
 
 ## Project Files
 
 | File | Description |
 |------|-------------|
-| `Expectation_Decider.ipynb` | Main Jupyter Notebook |
-| `AI_Generated_Rough_Student_Dataset_85Percent_Pass.csv` | Student performance dataset |
+| `Expectation Decider.ipynb` | Main Jupyter Notebook |
+| `Expectation Decider Dataset.csv` | Student performance dataset |
 | `README.md` | Project documentation |
 
 ## Conclusion
 
-This project demonstrates how probability and statistical concepts can be applied to a student performance dataset using Python and Jupyter Notebook.
+This project demonstrates how probability and statistical concepts can be applied to real-world student performance data using Python and Jupyter Notebook.
