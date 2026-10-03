@@ -108,4 +108,4 @@ This project demonstrates the practical application of probability and statistic
 
 ## 👩‍💻 Author
 
-**Harshala Bagul**
+**Sakshi Bagul**
